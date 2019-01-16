@@ -4,51 +4,58 @@
 <head>
   <meta charset="utf-8">
   <title>Calculadora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <div id="visor">
-    <input type="text">
-  </div>
-
-  <div id="keyboard">
-    <div id="numpad">
-      <div class="row">
-        <button class="bg-grey tc-black">7</button>
-        <button class="bg-grey tc-black">8</button>
-        <button class="bg-grey tc-black">9</button>
-      </div>
-
-      <div class="row">
-        <button class="bg-grey tc-black">4</button>
-        <button class="bg-grey tc-black">5</button>
-        <button class="bg-grey tc-black">6</button>
-      </div>
-
-      <div class="row">
-        <button class="bg-grey tc-black">1</button>
-        <button class="bg-grey tc-black">2</button>
-        <button class="bg-grey tc-black">3</button>
-      </div>
-
-      <div class="row">
-        <button class="bg-grey tc-black">0</button>
-        <button class="bg-grey tc-black">,</button>
-        <button class="bg-grey tc-black">= </button>
-      </div>
+  <div id="calculator">
+    <div id="visor">
+      <input type="text">
+      <div id="result"></div>
     </div>
 
-    <div id="basic-operations">
-      <div class="row"><button class="bg-grey tc-black">DEL</button></div>
-      <div class="row"><button class="bg-grey tc-black">$#247</button></div>
-      <div class="row"><button class="bg-grey tc-black">x</button></div>
-      <div class="row"><button class="bg-grey tc-black">+</button></div>
-      <div class="row"><button class="bg-grey tc-black">-</button></div>
-    </div>
+    <div id="keyboard">
+      <div id="numpad">
+        <div class="row">
+          <button class="bg-grey tc-black">7</button>
+          <button class="bg-grey tc-black">8</button>
+          <button class="bg-grey tc-black">9</button>
+        </div>
 
-    <div id="advanced-operations">
-    </div>
+        <div class="row">
+          <button class="bg-grey tc-black">4</button>
+          <button class="bg-grey tc-black">5</button>
+          <button class="bg-grey tc-black">6</button>
+        </div>
 
+        <div class="row">
+          <button class="bg-grey tc-black">1</button>
+          <button class="bg-grey tc-black">2</button>
+          <button class="bg-grey tc-black">3</button>
+        </div>
+
+        <div class="row">
+          <button class="bg-grey tc-black">0</button>
+          <button class="bg-grey tc-black">,</button>
+          <button class="bg-grey tc-black">= </button>
+        </div>
+      </div>
+
+      <div id="basic-operations">
+        <div class="row"><button class="bg-grey tc-blue i-backspace"></button></div>
+        <div class="row"><button class="bg-grey tc-blue">&#247</button></div>
+        <div class="row"><button class="bg-grey tc-blue">x</button></div>
+        <div class="row"><button class="bg-grey tc-blue">-</button></div>
+        <div class="row"><button class="bg-grey tc-blue">+</button></div>
+      </div>
+
+      <div id="advanced-operations">
+        <div class="row"><button class="bg-blue tc-white">&#8249</button></div>
+      </div>
+
+    </div>
   </div>
 </body>
 

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+button {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 30px;
+  font-family: "Roboto";
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#visor {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#visor > * {
+  flex-grow: 1;
+}
+
+#keyboard {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+#numpad {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+}
+
+#numpad > .row {
+  display: flex;
+  flex-grow: 1;
+}
+
+#basic-operations {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #e9ebed;
+  padding-left: 2px;
+}
+
+
+#basic-operations > .row {
+  flex-grow: 1;
+}
+
+#basic-operations > .row > button {
+  font-size: 20px;
+}
+
+#advanced-operations {
+  display: flex;
+}
+
+#advanced-operations > .row > button {
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.i-backspace {
+  background: url('/img/backspace.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 26px;
+}
+
+.bg-blue {
+  background-color: #306ee5;
+}
+
+.bg-grey {
+  background-color: #f1f3f4;
+}
+
+.tc-white {
+  color: white;
+}
+
+.tc-blue {
+  color: #306ee5;
+}
