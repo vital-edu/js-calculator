@@ -9,7 +9,7 @@ let store = new Store()
 
 buttons.forEach((btn) => {
   btn.onclick = function (e) {
-    let btnValue = btn.dataset.value
+    let btnValue = btn.innerHTML
 
     let response = store.execute(btnValue)
 
