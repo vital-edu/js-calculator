@@ -54,7 +54,7 @@ button {
   flex-grow: 1;
 }
 
-#basic-operations {
+.operations {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -62,20 +62,11 @@ button {
   padding-left: 2px;
 }
 
-
-#basic-operations > .row {
+.operations > .row {
   flex-grow: 1;
 }
 
-#basic-operations > .row > button {
-  font-size: 20px;
-}
-
-#advanced-operations {
-  display: flex;
-}
-
-#advanced-operations > .row > button {
+.operations > .row > button {
   font-size: 20px;
 }
 
@@ -104,4 +95,8 @@ button {
 
 .tc-blue {
   color: #306ee5;
+}
+
+.tc-grey {
+  color: #f1f3f4;
 }
