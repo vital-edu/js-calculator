@@ -31,8 +31,6 @@ button {
   display: flex;
   justify-content: right;
   align-items: center;
-  font-size: 45px;
-  font-size: 3.5vw;
   flex-grow: 1;
 }
 
@@ -54,6 +52,15 @@ button {
   flex-grow: 1;
 }
 
+#input {
+  font-size: 45px;
+}
+
+#result {
+  color: grey;
+  font-size: 35px;
+}
+
 .operations {
   display: flex;
   flex-direction: column;
@@ -72,13 +79,6 @@ button {
 
 .row {
   display: flex;
-}
-
-.i-backspace {
-  background: url('/img/backspace.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 26px;
 }
 
 .bg-blue {

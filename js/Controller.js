@@ -19,7 +19,7 @@ export default class Controller {
       this.state.addPercent()
     } else if (command === '√') {
       this.state.addSquareRoot()
-    } else if (command === '') {
+    } else if (command === 'CE') {
       this.state.resetState()
     } else if (isNumber(command)) {
       this.state.addNumber(command)

@@ -4,7 +4,8 @@
   "description": "A simple calculator",
   "main": "js/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "calc": "static-server -o"
   },
   "author": "Eduardo Vital Alencar Cunha <vitaldu@gmail.com>",
   "license": "MIT",
@@ -12,7 +13,8 @@
     "collectCoverage": true
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "static-server": "^2.2.1"
   },
   "dependencies": {},
   "babel": {
