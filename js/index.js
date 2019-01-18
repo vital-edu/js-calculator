@@ -11,9 +11,9 @@ buttons.forEach((btn) => {
   btn.onclick = function (e) {
     let btnValue = btn.dataset.value
 
-    store.execute(btnValue)
+    let response = store.execute(btnValue)
 
-    inputScreen.innerHTML = store.currentState.input
-    resultScreen.innerHTML = store.currentState.result
+    inputScreen.innerHTML = response.input
+    resultScreen.innerHTML = response.result
   }
 })

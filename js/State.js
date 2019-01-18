@@ -1,7 +1,7 @@
 export default class State {
-  constructor() {
+  constructor(result = '') {
     this.input = ''
-    this.result = ''
+    this.result = result
     this.operating = false
     this.dotIsPresent = false
     this.opIsLastChar = false
@@ -11,16 +11,9 @@ export default class State {
   resetState() {
     this.input = ''
     this.result = ''
-    this.operating = false
     this.dotIsPresent = false
     this.opIsLastChar = false
     this.needInsertNumber = true
-  }
-
-  finalResult() {
-    let finalResult = this.result
-    this.resetState()
-    this.result = finalResult
   }
 
   addDot() {
@@ -42,6 +35,5 @@ export default class State {
       this.needInsertNumber = true
     }
   }
-
 }
 
