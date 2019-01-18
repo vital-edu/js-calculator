@@ -20,11 +20,19 @@ button {
 
 #visor {
   display: flex;
-  flex-grow: 1;
+  flex-basis: 20%;
   flex-direction: column;
+  text-align: right;
+  flex-basis: 20%;
+  padding: 35px;
 }
 
 #visor > * {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 45px;
+  font-size: 3.5vw;
   flex-grow: 1;
 }
 
