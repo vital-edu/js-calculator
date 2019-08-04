@@ -16,7 +16,9 @@
     "babel-preset-env": "^1.7.0",
     "static-server": "^2.2.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
   "babel": {
     "presets": [
       "env"
